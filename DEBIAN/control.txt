@@ -1,0 +1,7 @@
+Package: testinho
+Priority: optional
+Version: 0.1
+Architecture: i386
+Maintainer: Rennan Bodo
+Depends:
+Description: Este é um pacote gerado com o intuito de elucidar a criação de um pacote deb. 
