@@ -1,8 +1,8 @@
 import time
 import os
 
-
-while true:
+i = true
+while i == true:
     os.system('sudo rm /home/pi/ver')
     os.system('sudo wget https://raw.githubusercontent.com/Rekorulez/updatetest/master/ver')
     handle = open("ver", "r")
@@ -15,7 +15,7 @@ while true:
     else:
         print("desatualizado")
         os.system('sudo python3 /home/pi/teste.py')
-        break
+        i = false
 
     handle.close
     handle2.close
