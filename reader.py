@@ -9,6 +9,9 @@ while i == 1:
     data = handle.read()
     handle2 = open("/home/pi/ver", "r")
     data2 = handle2.read()
+    print(data)
+    print(data2)
+    time.sleep(5)
 
     if data == data2:
         print("atualizado")
