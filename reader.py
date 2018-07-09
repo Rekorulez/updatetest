@@ -5,7 +5,7 @@ import json
 
 while 1:
     nuvem = requests.get("https://raw.githubusercontent.com/Rekorulez/updatetest/master/ver.json")
-    disco = json.loads("/home/pi/updatetest/ver.json")
+    disco = ver.get("Versões atuais")
     
     if  disco == nuvem:
         print("atualizado")
