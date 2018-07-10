@@ -14,12 +14,12 @@ while 1:
     print(d)
     
     time.sleep(10)
-    #if  disco == nuvem:
-    #    print("atualizado")
-    #else:
-    #    print("desatualizado")
-    #    os.system('sudo python3 /home/pi/teste.py')
-    #    break
+    if  disco == nuvem:
+        print("atualizado")
+    else:
+        print("desatualizado")
+        os.system('sudo python3 /home/pi/teste.py')
+        break
 
 
     #time.sleep(60)
