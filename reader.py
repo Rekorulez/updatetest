@@ -20,4 +20,4 @@ while 1:
     #    break
 
 
-    time.sleep(60)
+    #time.sleep(60)
