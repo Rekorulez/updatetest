@@ -8,10 +8,10 @@ while 1:
     disco = open("/home/pi/updatetest/ver.json", "r").read()
     d = json.loads(disco)
     
-    print(nuvem.content)
+    print(nuvem)
     print(d)
     
-    sleep(10)
+    time.sleep(10)
     #if  disco == nuvem:
     #    print("atualizado")
     #else:
