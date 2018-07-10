@@ -5,12 +5,11 @@ import json
 
 while 1:
     req = requests.get("https://raw.githubusercontent.com/Rekorulez/updatetest/master/ver.json")
-    nuvem = req.json()
-    n = json.loads(nuvem.read())
+    nuvem = req.contents
     disco = open("/home/pi/updatetest/ver.json", "r").read()
     d = json.loads(disco)
     
-    print(n)
+    print(nuvem)
     print(d)
     
     time.sleep(10)
