@@ -10,13 +10,15 @@ while 1:
     disco = open("/home/pi/updatetest/ver.json", "r").read()
     d = json.loads(disco)
     
+    os.system('clear')
+    
     print(n)
     print(d)
     
     
     if  disco == nuvem:
         print("atualizado")
-        os.system('clear')
+        
     else:
         print("desatualizado")
         os.system('sudo python3 /home/pi/teste.py')
