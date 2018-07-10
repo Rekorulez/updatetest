@@ -16,6 +16,7 @@ while 1:
     
     if  disco == nuvem:
         print("atualizado")
+        os.system('clear')
     else:
         print("desatualizado")
         os.system('sudo python3 /home/pi/teste.py')
