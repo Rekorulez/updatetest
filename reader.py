@@ -13,7 +13,7 @@ while 1:
     print(n)
     print(d)
     
-    time.sleep(10)
+    
     if  disco == nuvem:
         print("atualizado")
     else:
@@ -22,4 +22,4 @@ while 1:
         break
 
 
-    #time.sleep(60)
+    time.sleep(60)
